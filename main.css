@@ -1,4 +1,73 @@
-body {
-  background-color: red;
+p {
+ border-bottom: 3px solid red;
 
 }
+
+.kermit {
+	border: 3px solid green;
+}
+
+#main-div {
+	padding: 10px;
+
+}
+
+#main-div-2 .kermit {
+	border: 3px dotted purple;
+}
+
+#main-div-2 > * {
+	border: 4px solid black;
+}
+
+h2 ~ * {
+	border: 3px solid blue;
+}
+
+#li-1 {
+	font-size: 30px;
+}
+
+#li-2 {
+	font-weight: bold;
+}
+
+#li-3 {
+	text-transform: uppercase;
+}
+
+#myster-ul {
+	font-family: 'Mystery Quest';
+}
+
+#flex-kermit {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#flex-kermit img {
+	margin: 15px;
+	border: 10px;
+	max-width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
